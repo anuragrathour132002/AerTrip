@@ -5,13 +5,16 @@ import App from './App.jsx'
 import { ThemeProvider } from "@mui/material";
 import { theme } from "./config/theme.js"
 import { BrowserRouter } from 'react-router-dom';
+import { FlightContextProvider } from './context/FlightContext.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ThemeProvider theme={theme}>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
+      <FlightContextProvider>
+        <BrowserRouter>
+          <App />
+        </BrowserRouter>
+      </FlightContextProvider>
     </ThemeProvider>
   </StrictMode>,
 )

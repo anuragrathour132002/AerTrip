@@ -4,6 +4,6 @@ export const publicRoutes = [
     {
         title: "Flights",
         path: "/",
-        component: lazy(() => import("../components/shared/Flights")),
+        component: lazy(() => import("../components/pages/Flights")),
     },
 ];
