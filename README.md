@@ -1,12 +1,28 @@
-# React + Vite
+# 🛫 Aertrip Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A flight search and sorting UI built with **React**, **Vite**, **Tailwind CSS**, and **Material UI**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** [https://aertripassignment.netlify.app](https://aertripassignment.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ab98538a-87be-46c6-8628-0acae5817984" />
+
+---
+
+## 🛠️ Installation & Setup
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/anuragrathour132002/AerTrip
+cd AerTrip
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
+
+# Open in browser at: http://localhost:5173
