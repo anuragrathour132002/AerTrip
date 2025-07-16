@@ -7,7 +7,11 @@ const UserLayout = () => {
     return (
         <div className="flex flex-col flex-auto relative">
             <Header />
-            <Suspense fallback={<Spinner />}>
+            <Suspense fallback={
+                <div className="flex justify-center items-center h-[70vh] w-full">
+                    <Spinner />
+                </div>}
+            >
                 <main className="flex-1">
                     <Outlet />
                 </main>
